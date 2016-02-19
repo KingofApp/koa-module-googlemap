@@ -14,8 +14,8 @@
   },
   "requires": [],
   "canContain": false,
-  "view": "http://resources.kingofapp.com/modules/googlemap/index.html",
-  "files": ["http://resources.kingofapp.com/modules/googlemap/controller.js", "http://resources.kingofapp.com/modules/googlemap/directive.js", "http://resources.kingofapp.com/modules/googlemap/style.css"],
+  "view": "modules/googlemap/index.html",
+  "files": ["modules/googlemap/controller.js", "modules/googlemap/directive.js", "modules/googlemap/style.css"],
   "scope": {
     "lat": "39.8847281",
     "lon": "4.2540999",
@@ -25,7 +25,7 @@
     "bower": {
       "GoogleWebComponents/google-map": "^1.1.0"
     },
-    "src": "http://resources.kingofapp.com/bower_components/google-map/google-map.html"
+    "src": "bower_components/google-map/google-map.html"
   }],
   "config": [{
     "type": "input",

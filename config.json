@@ -18,8 +18,9 @@
       "windows"
   ],
   "view" : "http://resources.kingofapp.com/modules/googlemap/index.html",
+  "controller" : "http://resources.kingofapp.com/modules/googlemap/controller.js",
   "files" : [
-      "http://resources.kingofapp.com/modules/googlemap/controller.js","http://resources.kingofapp.com/modules/googlemap/directive.js","http://resources.kingofapp.com/modules/googlemap/style.css"
+      "http://resources.kingofapp.com/modules/googlemap/directive.js","http://resources.kingofapp.com/modules/googlemap/style.css"
   ],
   "scope" : {
       "zoom" : "",

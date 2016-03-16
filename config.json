@@ -34,9 +34,9 @@
     "modules/googlemap/directive.js", "modules/googlemap/style.css"
   ],
   "scope": {
-    "zoom": "",
-    "lat": "",
-    "lon": ""
+    "lat": "39.8847281",
+    "lon": "4.2540999",
+    "zoom": "15"
   },
   "libs": [{
     "bower": {

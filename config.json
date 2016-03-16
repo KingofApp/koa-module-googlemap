@@ -76,13 +76,13 @@
     "dragDrop": true
   },
   "images": {
-    "list": "images/modules/list.png",
+    "list": "modules/googlemap/images/list.png",
     "screenshots": [
-      "images/modules/screenshot01.png",
-      "images/modules/screenshot02.png"
+      "modules/googlemap/images/screenshot01.png",
+      "modules/googlemap/images/screenshot02.png"
     ],
-    "popover": "images/modules/popover.png",
-    "banner": "images/modules/banner.png",
-    "logo": "images/modules/logo.png"
+    "popover": "modules/googlemap/images/popover.png",
+    "banner": "modules/googlemap/images/banner.png",
+    "logo": "modules/googlemap/images/logo.png"
   }
 }

@@ -81,7 +81,7 @@
       "modules/googlemap/images/screenshot02.png"
     ],
     "popover": "modules/googlemap/images/popover.png",
-    "banner": "modules/googlemap/images/banner.png",
+    "banner": "modules/googlemap/images/popover.png",
     "logo": "modules/googlemap/images/logo.png"
   }
 }

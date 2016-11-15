@@ -35,6 +35,7 @@
   "scope": {
     "lat": "39.8847281",
     "lon": "4.2540999",
+    "api": "",
     "zoom": "15"
   },
   "libs": [{
@@ -67,6 +68,14 @@
       "pattern": "([1-2]?[0-9]{1,1})",
       "required": true,
       "description": "zoom del map"
+    }
+  }, {
+    "type": "input",
+    "key": "api",
+    "templateOptions": {
+      "label": "Api Key",
+      "required": true,
+      "description": "Api key for google maps"
     }
   }],
   "showOn": {

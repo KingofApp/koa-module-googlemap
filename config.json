@@ -15,7 +15,7 @@
   },
   "icon": "room",
   "type": "A",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "King of App",
   "category": [
     "maps"
@@ -31,7 +31,7 @@
   "view": "modules/googlemap/index.html",
   "files": [
     "modules/googlemap/controller.js",
-    "modules/googlemap/directive.js", 
+    "modules/googlemap/directive.js",
     "modules/googlemap/style.css"
   ],
   "scope": {

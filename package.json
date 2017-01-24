@@ -1,6 +1,6 @@
 {
   "name": "koapp-module-googlemap",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Con este módulo podrás fijar tu posición en el mapa, crear rutas y marcar lugares.",
   "directories": {
     "test": "test"

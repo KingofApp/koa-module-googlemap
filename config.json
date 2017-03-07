@@ -2,16 +2,16 @@
   "name": "Google maps",
   "identifier": "googlemap",
   "description": {
-    "es-ES": "Con este módulo podrás fijar tu posición en el mapa, crear rutas de interés o marcar tus lugares favoritos. Actívalo y entra la dirección que desees.",
-    "en-US": "Con este módulo podrás fijar tu posición en el mapa, crear rutas de interés o marcar tus lugares favoritos. Actívalo y entra la dirección que desees."
+    "es-ES": "Activa este módulo para fijar tu ubicación en el mapa, crear rutas de interés o marcar tus lugares favoritos. Entra la dirección que desees y explora las posibilidades que Google Maps te ofrece.",
+    "en-US": "Activate this module to fix your position on the map, create routes of interest or bookmark your favourite places. Just enter your direction and explore the possibilities that Google Maps offers you. "
   },
   "documentation": {
     "es-ES": "modules/googlemap/documentation/es_ES.md",
     "en-US": "modules/googlemap/documentation/en_US.md"
   },
   "descriptionShort": {
-    "es-ES": "Con este módulo podrás fijar tu posición en el mapa, crear rutas y marcar lugares.",
-    "en-US": "Con este módulo podrás fijar tu posición en el mapa, crear rutas y marcar lugares."
+    "es-ES": "Explora las posibilidades que Google Maps ofrece para mejorar tus servicios.",
+    "en-US": "Explore the possibilities that Google Maps offers you to improve your service."
   },
   "icon": "room",
   "type": "A",

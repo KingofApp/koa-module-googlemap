@@ -17,3 +17,9 @@ https://www.google.es/maps/place/The+White+House/@38.8976763,-77.0387185,17z/dat
 Fácil, ¿verdad? El tercer campo que solicitamos para configurar el módulo de mapas es el **Zoom**. Aquí hay que entrar un valor numérico, entre 1-15 aproximadamente, para que la imagen se acerque más o menos al punto seleccionado. Tres pequeños datos para una funcionalidad completa.
 
   [la página de mapas de Google]: http://maps.google.com/
+
+### Details:
+
+- Author: King of app
+- Version: 1.0.7
+- Homepage:

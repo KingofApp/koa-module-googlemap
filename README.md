@@ -21,5 +21,5 @@ Fácil, ¿verdad? El tercer campo que solicitamos para configurar el módulo de 
 ### Details:
 
 - Author: King of app
-- Version: 1.0.7
+- Version: 1.0.8
 - Homepage:

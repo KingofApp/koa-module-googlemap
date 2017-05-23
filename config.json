@@ -1,98 +1,105 @@
 {
-  "name": "Google maps",
-  "identifier": "googlemap",
-  "description": {
-    "es-ES": "Activa este módulo para fijar tu ubicación en el mapa, crear rutas de interés o marcar tus lugares favoritos. Entra la dirección que desees y explora las posibilidades que Google Maps te ofrece.",
-    "en-US": "Activate this module to fix your position on the map, create routes of interest or bookmark your favourite places. Just enter your direction and explore the possibilities that Google Maps offers you. "
-  },
-  "documentation": {
-    "es-ES": "modules/googlemap/documentation/es_ES.md",
-    "en-US": "modules/googlemap/documentation/en_US.md"
-  },
-  "descriptionShort": {
-    "es-ES": "Explora las posibilidades que Google Maps ofrece para mejorar tus servicios.",
-    "en-US": "Explore the possibilities that Google Maps offers you to improve your service."
-  },
-  "icon": "room",
-  "type": "A",
-  "version": "1.0.8",
-  "author": "King of App",
-  "category": [
-    "maps"
-  ],
-  "price": 0,
-  "subscription": false,
-  "canContain": false,
-  "platforms": [
-    "android",
-    "ios",
-    "windows"
-  ],
-  "view": "modules/googlemap/index.html",
-  "files": [
-    "modules/googlemap/controller.js",
-    "modules/googlemap/directive.js",
-    "modules/googlemap/style.css"
-  ],
-  "scope": {
-    "lat": "39.8847281",
-    "lon": "4.2540999",
-    "api": "",
-    "zoom": "15"
-  },
-  "libs": [{
-    "bower": {
-      "GoogleWebComponents/google-map": "^1.1.7"
+    "name": "Google maps",
+    "identifier": "googlemap",
+    "description": {
+        "es-ES": "Activa este módulo para fijar tu ubicación en el mapa, crear rutas de interés o marcar tus lugares favoritos. Entra la dirección que desees y explora las posibilidades que Google Maps te ofrece.",
+        "en-US": "Activate this module to fix your position on the map, create routes of interest or bookmark your favourite places. Just enter your direction and explore the possibilities that Google Maps offers you. "
     },
-    "src": "bower_components/google-map/google-map.html"
-  }],
-  "config": [{
-    "type": "input",
-    "key": "lat",
-    "templateOptions": {
-      "description": "latitud del map",
-      "required": true,
-      "label": "latitud"
-    }
-  }, {
-    "templateOptions": {
-      "label": "longitud",
-      "required": true,
-      "description": "longitud del map"
+    "documentation": {
+        "es-ES": "modules/googlemap/documentation/es_ES.md",
+        "en-US": "modules/googlemap/documentation/en_US.md"
     },
-    "type": "input",
-    "key": "lon"
-  }, {
-    "type": "input",
-    "key": "zoom",
-    "templateOptions": {
-      "label": "zoom",
-      "pattern": "([1-2]?[0-9]{1,1})",
-      "required": true,
-      "description": "zoom del map"
-    }
-  }, {
-    "type": "input",
-    "key": "api",
-    "templateOptions": {
-      "label": "Api Key",
-      "required": true,
-      "description": "Api key for google maps"
-    }
-  }],
-  "showOn": {
-    "menu": true,
-    "market": true,
-    "dragDrop": true
-  },
-  "images": {
-    "list": "modules/googlemap/images/list.png",
-    "screenshots": [
-      "modules/googlemap/images/screenshot01.png",
-      "modules/googlemap/images/screenshot02.png"
+    "descriptionShort": {
+        "es-ES": "Explora las posibilidades que Google Maps ofrece para mejorar tus servicios.",
+        "en-US": "Explore the possibilities that Google Maps offers you to improve your service."
+    },
+    "icon": "room",
+    "type": "A",
+    "version": "1.0.9",
+    "author": "King of App",
+    "category": [
+        "maps"
     ],
-    "popover": "modules/googlemap/images/popover.png",
-    "banner": "modules/googlemap/images/popover.png",
-    "logo": "modules/googlemap/images/logo.png"
-  }
+    "price": 0,
+    "subscription": false,
+    "canContain": false,
+    "platforms": [
+        "android",
+        "ios",
+        "windows"
+    ],
+    "view": "modules/googlemap/index.html",
+    "files": [
+        "modules/googlemap/controller.js",
+        "modules/googlemap/directive.js",
+        "modules/googlemap/style.css"
+    ],
+    "scope": {
+        "lat": "39.8847281",
+        "lon": "4.2540999",
+        "api": "",
+        "zoom": "15"
+    },
+    "libs": [
+        {
+            "bower": {
+                "GoogleWebComponents/google-map": "^1.1.7"
+            },
+            "src": "bower_components/google-map/google-map.html"
+        }
+    ],
+    "config": [
+        {
+            "type": "input",
+            "key": "lat",
+            "templateOptions": {
+                "description": "latitud del map",
+                "required": true,
+                "label": "latitud"
+            }
+        },
+        {
+            "templateOptions": {
+                "label": "longitud",
+                "required": true,
+                "description": "longitud del map"
+            },
+            "type": "input",
+            "key": "lon"
+        },
+        {
+            "type": "input",
+            "key": "zoom",
+            "templateOptions": {
+                "label": "zoom",
+                "pattern": "([1-2]?[0-9]{1,1})",
+                "required": true,
+                "description": "zoom del map"
+            }
+        },
+        {
+            "type": "input",
+            "key": "api",
+            "templateOptions": {
+                "label": "Api Key",
+                "required": true,
+                "description": "Api key for google maps"
+            }
+        }
+    ],
+    "showOn": {
+        "menu": true,
+        "market": true,
+        "dragDrop": true
+    },
+    "images": {
+        "list": "modules/googlemap/images/list.png",
+        "screenshots": [
+            "modules/googlemap/images/screenshot01.png",
+            "modules/googlemap/images/screenshot02.png"
+        ],
+        "popover": "modules/googlemap/images/popover.png",
+        "banner": "modules/googlemap/images/popover.png",
+        "logo": "modules/googlemap/images/logo.png"
+    }
 }

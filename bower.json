@@ -10,6 +10,6 @@
   "homepage": "http://kingofapp.com",
   "private": true,
   "dependencies": {
-    "google-map": "GoogleWebComponents/google-map#^1.1.0"
+    "ngmap": "1.18.4"
   }
 }

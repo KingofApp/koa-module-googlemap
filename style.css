@@ -1,9 +1,0 @@
-google-map {
-  height: 100%;
-  width: 100%;
-  position:absolute;
-}
-
-.module.googlemap {
-  padding:0px;
-}

@@ -1,5 +1,17 @@
 <div class="module googlemap" ng-controller="GooglemapController">
-
-  <div google-map lat="googlemap.modulescope.lat" lon="googlemap.modulescope.lon" api="googlemap.modulescope.api" zoom="googlemap.modulescope.zoom"></div>
-
+  <div class="map-wrapper" map-lazy-load="https://maps.google.com/maps/api/js" map-lazy-load-params="{{googleMapsUrl}}">
+    <ng-map class="map" center="[{{moduleConfig.lat}},{{moduleConfig.lon}}]" zoom="{{moduleConfig.zoom}}">
+      <custom-marker ng-repeat="cm in customMarkers" position="{{cm.address}}" on-click="click()">
+        <svg width="48" height="64" xmlns="http://www.w3.org/2000/svg">
+          <g>
+            <rect fill="transparent" id="canvas_background" height="66" width="50" y="-1" x="-1" />
+          </g>
+          <g>
+            <path fill="{{svgColor}}" stroke="null" id="svg_1" d="m23.75641,2.115383c-12.331722,0 -22.333333,10.001611 -22.333333,22.333333c0,14.345444 16.083722,32.24561 18.61111,34.981443c1.045944,1.135278 1.920667,2.240778 3.722222,2.240778s2.676278,-1.1055 3.722222,-2.240778c2.527389,-2.735833 18.61111,-20.635999 18.61111,-34.981443c0,-12.331722 -10.001611,-22.333333 -22.333333,-22.333333zm0,37.222221c-8.222389,0 -14.888888,-6.6665 -14.888888,-14.888888s6.6665,-14.888888 14.888888,-14.888888s14.888888,6.6665 14.888888,14.888888s-6.6665,14.888888 -14.888888,14.888888zm0,-22.333333c-4.109333,0 -7.444444,3.335111 -7.444444,7.444444s3.335111,7.444444 7.444444,7.444444s7.444444,-3.335111 7.444444,-7.444444s-3.335111,-7.444444 -7.444444,-7.444444z"
+            />
+          </g>
+        </svg>
+      </custom-marker>
+    </ng-map>
+  </div>
 </div>

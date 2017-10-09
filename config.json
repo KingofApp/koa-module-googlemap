@@ -31,13 +31,13 @@
   "view": "modules/googlemap/index.html",
   "files": [
     "modules/googlemap/controller.js",
-    "modules/googlemap/directive.js",
     "modules/googlemap/style.html"
   ],
   "scope": {
     "lat": "39.8847281",
     "lon": "4.2540999",
-    "zoom": "15"
+    "zoom": "15",
+    "api": ""
   },
   "libs": [
     {
@@ -74,6 +74,15 @@
         "pattern": "([1-2]?[0-9]{1,1})",
         "required": true,
         "description": "zoom del map"
+      }
+    },
+    {
+      "type": "input",
+      "key": "api",
+      "templateOptions": {
+        "label": "Api Key",
+        "required": true,
+        "description": "Api key for google maps"
       }
     }
   ],
